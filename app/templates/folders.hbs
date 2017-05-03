@@ -1,0 +1,13 @@
+<div class="flex-container">
+  <div class="flex-item">
+    <ul>
+    {{#each model as |folder|}}
+          {{#link-to 'folders.folder' folder}}{{folder.name}}{{/link-to}}
+          <br>
+    {{/each}}
+    </ul>
+  </div>
+  <div class="flex-item">
+    {{outlet}}
+  </div>
+</div>

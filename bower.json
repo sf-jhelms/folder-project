@@ -1,5 +1,6 @@
 {
   "name": "folder-project",
   "dependencies": {
+    "firebase": "^3.0.0"
   }
 }
